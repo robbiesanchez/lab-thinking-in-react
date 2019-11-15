@@ -26,3 +26,24 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+.search-bar {
+  width: 80%;
+  height: 30px;
+  border: 1px black solid;
+}
+
+.product {
+  display: flex;
+  border-bottom: 1px black solid;
+  background-color: lightblue;
+  justify-content: space-around;
+  height: 40px;
+  width: 100%;
+}
+
+.title {
+  display: flex;
+  justify-content: space-around;
+  background-color: lightgray
+}
