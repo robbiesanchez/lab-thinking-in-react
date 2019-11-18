@@ -14,10 +14,10 @@ export default class ProductTable extends Component {
         this.state = {
             name: "",
             price: 0,
-            newProducts: props.products
+            newProducts: props.products.data
         }
 
-        console.log(this.props.products);
+        console.log(this.state.newProducts);
     }
 
 
